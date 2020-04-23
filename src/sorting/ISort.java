@@ -1,5 +1,5 @@
 package sorting;
 
 public interface ISort {
-    <T> T[] Sort(T[] elements);
+    <T extends Comparable<T>> T[] Sort(T[] elements);
 }
