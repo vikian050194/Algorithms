@@ -1,8 +1,5 @@
 import org.junit.jupiter.api.Test;
-import sorting.BubbleSort;
-import sorting.ISort;
-import sorting.QuickHoareSort;
-import sorting.QuickLomutoSort;
+import sorting.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,7 +9,8 @@ class SortTest {
         var sortingAlgorithms = new ISort[]{
                 new BubbleSort(),
                 new QuickHoareSort(),
-                new QuickLomutoSort()
+                new QuickLomutoSort(),
+                new MergeSort()
         };
 
         var expected = new Integer[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};

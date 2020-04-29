@@ -1,7 +1,6 @@
 package sorting;
 
 public class QuickHoareSort implements ISort {
-    @Override
     public String GetName() {
         return "Quick Hoare";
     }

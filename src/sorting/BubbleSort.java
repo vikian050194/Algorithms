@@ -1,7 +1,6 @@
 package sorting;
 
 public class BubbleSort implements ISort {
-    @Override
     public String GetName() {
         return "Bubble";
     }

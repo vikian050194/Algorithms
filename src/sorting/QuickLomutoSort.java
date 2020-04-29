@@ -1,7 +1,6 @@
 package sorting;
 
 public class QuickLomutoSort implements ISort {
-    @Override
     public String GetName() {
         return "Quick Lomuto";
     }
@@ -41,3 +40,5 @@ public class QuickLomutoSort implements ISort {
         elements[j] = temp;
     }
 }
+
+
